@@ -23,11 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%1)uc5i)935j#$zqbky804w(up4n+*_si#p(s5n6eyqax3!bdq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
+    '*.railway.app',
     'localhost',
     '127.0.0.1',
+    'twitter-clone-production-c6a4.up.railway.app'
 ]
 
 
